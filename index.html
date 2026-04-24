@@ -239,6 +239,73 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h2 class="index-header">
         
+        <a href="/2026/04/24/tencent-game-security-competition-2026-finals-writeup/" target="_self">
+          腾讯游戏安全技术竞赛2026决赛题解
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/04/24/tencent-game-security-competition-2026-finals-writeup/" target="_self">
+        <div>
+          驱动分析从三环程序中可以直接提取出驱动，我个人比较习惯先分析驱动，因此直接开始  发现没有导入表，膨胀严重且驱动入口加了虚拟化，先选择hook一下常见api跑一下，但是导入表无了，这说明驱动是自己解析内核导出来调用的，不过一般驱动都会自己用MmGetSystemRoutineAddress解析几个导出来用，所以先hook一下跑一下日志来收集证据。 1234567891011121314151617
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-04-24 15:43" pubdate>
+              2026-04-24
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/Ctf-writeups/" class="category-chain-item">Ctf-writeups</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/CTF/">#CTF</a>
+            
+              <a href="/tags/Reverse/">#Reverse</a>
+            
+              <a href="/tags/Game-Security/">#Game-Security</a>
+            
+              <a href="/tags/Tencent-Games/">#Tencent-Games</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
         <a href="/2025/12/22/reverse-mdriver-wp/" target="_self">
           第五届“鹏城杯”初赛 Reverse-MDriver wp
         </a>
